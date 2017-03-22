@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>806427397182-79oh6bv2eu14jekku5eo8nv9qkn2ff50.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.806427397182-79oh6bv2eu14jekku5eo8nv9qkn2ff50</string>
+	<key>API_KEY</key>
+	<string>AIzaSyABdhp2xEa22IwS_CFQwj3fWhmqk3S66x0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>806427397182</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>enclave.bc10.iosteam.HappyGrading</string>
+	<key>PROJECT_ID</key>
+	<string>autogradingmultiplechoicesheet</string>
+	<key>STORAGE_BUCKET</key>
+	<string>autogradingmultiplechoicesheet.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:806427397182:ios:d698a85f98d69949</string>
+	<key>DATABASE_URL</key>
+	<string>https://autogradingmultiplechoicesheet.firebaseio.com</string>
+</dict>
+</plist>

@@ -10,11 +10,21 @@
 		43053D381E824C8B00B00609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D371E824C8B00B00609 /* AppDelegate.swift */; };
 		43053D3A1E824C8B00B00609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D391E824C8B00B00609 /* ViewController.swift */; };
 		43053D3D1E824C8B00B00609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43053D3B1E824C8B00B00609 /* Main.storyboard */; };
-		43053D401E824C8B00B00609 /* HappyGrading.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43053D3E1E824C8B00B00609 /* HappyGrading.xcdatamodeld */; };
 		43053D421E824C8B00B00609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43053D411E824C8B00B00609 /* Assets.xcassets */; };
-		43053D451E824C8B00B00609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43053D431E824C8B00B00609 /* LaunchScreen.storyboard */; };
 		43053D501E824C8C00B00609 /* HappyGradingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D4F1E824C8C00B00609 /* HappyGradingTests.swift */; };
 		43053D5B1E824C8C00B00609 /* HappyGradingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D5A1E824C8C00B00609 /* HappyGradingUITests.swift */; };
+		43053D6A1E824E1300B00609 /* HappyGrading.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43053D681E824E1300B00609 /* HappyGrading.xcdatamodeld */; };
+		43053D701E824F4600B00609 /* CourseManagementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D6D1E824F4600B00609 /* CourseManagementTableViewCell.swift */; };
+		43053D711E824F4600B00609 /* CourseManagementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D6E1E824F4600B00609 /* CourseManagementTableViewController.swift */; };
+		43053D721E824F4600B00609 /* EditCourseInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D6F1E824F4600B00609 /* EditCourseInfoViewController.swift */; };
+		43053D761E824F6000B00609 /* ExamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D741E824F6000B00609 /* ExamTableViewCell.swift */; };
+		43053D771E824F6000B00609 /* ExamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D751E824F6000B00609 /* ExamTableViewController.swift */; };
+		43053D791E824F6900B00609 /* AddNewCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D781E824F6900B00609 /* AddNewCourseViewController.swift */; };
+		43053D7C1E824F8300B00609 /* AlertForMissedRequiredField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D7A1E824F8300B00609 /* AlertForMissedRequiredField.swift */; };
+		43053D7D1E824F8300B00609 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D7B1E824F8300B00609 /* DataAccess.swift */; };
+		43053D811E8250AA00B00609 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43053D7F1E8250AA00B00609 /* LaunchScreen.xib */; };
+		43053D831E82575300B00609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43053D821E82575300B00609 /* GoogleService-Info.plist */; };
+		7CF2DCB3FAE1DE45A5406003 /* Pods_HappyGrading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6BEC4FBFA9A91C08B529D2 /* Pods_HappyGrading.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6BEC4FBFA9A91C08B529D2 /* Pods_HappyGrading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyGrading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		361FC851B489DDEEF00FD5B1 /* Pods-HappyGrading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyGrading.debug.xcconfig"; path = "HappyGrading/Pods/Target Support Files/Pods-HappyGrading/Pods-HappyGrading.debug.xcconfig"; sourceTree = "<group>"; };
 		43053D341E824C8B00B00609 /* HappyGrading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyGrading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43053D371E824C8B00B00609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43053D391E824C8B00B00609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43053D3C1E824C8B00B00609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		43053D3F1E824C8B00B00609 /* HappyGrading.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyGrading.xcdatamodel; sourceTree = "<group>"; };
 		43053D411E824C8B00B00609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		43053D441E824C8B00B00609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43053D461E824C8B00B00609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43053D4B1E824C8C00B00609 /* HappyGradingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyGradingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43053D4F1E824C8C00B00609 /* HappyGradingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyGradingTests.swift; sourceTree = "<group>"; };
@@ -49,6 +59,19 @@
 		43053D561E824C8C00B00609 /* HappyGradingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyGradingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43053D5A1E824C8C00B00609 /* HappyGradingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyGradingUITests.swift; sourceTree = "<group>"; };
 		43053D5C1E824C8C00B00609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43053D691E824E1300B00609 /* model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = model.xcdatamodel; sourceTree = "<group>"; };
+		43053D6D1E824F4600B00609 /* CourseManagementTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseManagementTableViewCell.swift; sourceTree = "<group>"; };
+		43053D6E1E824F4600B00609 /* CourseManagementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseManagementTableViewController.swift; sourceTree = "<group>"; };
+		43053D6F1E824F4600B00609 /* EditCourseInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCourseInfoViewController.swift; sourceTree = "<group>"; };
+		43053D741E824F6000B00609 /* ExamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamTableViewCell.swift; sourceTree = "<group>"; };
+		43053D751E824F6000B00609 /* ExamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamTableViewController.swift; sourceTree = "<group>"; };
+		43053D781E824F6900B00609 /* AddNewCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewCourseViewController.swift; sourceTree = "<group>"; };
+		43053D7A1E824F8300B00609 /* AlertForMissedRequiredField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertForMissedRequiredField.swift; sourceTree = "<group>"; };
+		43053D7B1E824F8300B00609 /* DataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
+		43053D801E8250AA00B00609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		43053D821E82575300B00609 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43053D841E826AEF00B00609 /* HappyGrading.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HappyGrading.entitlements; sourceTree = "<group>"; };
+		6EDCE8C57D6896A5DA5F74AE /* Pods-HappyGrading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyGrading.release.xcconfig"; path = "HappyGrading/Pods/Target Support Files/Pods-HappyGrading/Pods-HappyGrading.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF2DCB3FAE1DE45A5406003 /* Pods_HappyGrading.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011619F1B5B377CC39968329 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				361FC851B489DDEEF00FD5B1 /* Pods-HappyGrading.debug.xcconfig */,
+				6EDCE8C57D6896A5DA5F74AE /* Pods-HappyGrading.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		43053D2B1E824C8B00B00609 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,8 @@
 				43053D4E1E824C8C00B00609 /* HappyGradingTests */,
 				43053D591E824C8C00B00609 /* HappyGradingUITests */,
 				43053D351E824C8B00B00609 /* Products */,
+				011619F1B5B377CC39968329 /* Pods */,
+				8D3EFF21267BEA7946C1F2D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +134,14 @@
 		43053D361E824C8B00B00609 /* HappyGrading */ = {
 			isa = PBXGroup;
 			children = (
-				43053D371E824C8B00B00609 /* AppDelegate.swift */,
-				43053D391E824C8B00B00609 /* ViewController.swift */,
+				43053D841E826AEF00B00609 /* HappyGrading.entitlements */,
+				43053D7E1E824F8D00B00609 /* Main Process */,
+				43053D731E824F4B00B00609 /* ExamManagement */,
+				43053D6C1E824F2700B00609 /* Course Management */,
 				43053D3B1E824C8B00B00609 /* Main.storyboard */,
 				43053D411E824C8B00B00609 /* Assets.xcassets */,
-				43053D431E824C8B00B00609 /* LaunchScreen.storyboard */,
-				43053D461E824C8B00B00609 /* Info.plist */,
-				43053D3E1E824C8B00B00609 /* HappyGrading.xcdatamodeld */,
+				43053D7F1E8250AA00B00609 /* LaunchScreen.xib */,
+				43053D6B1E824E2100B00609 /* Supporting Files */,
 			);
 			path = HappyGrading;
 			sourceTree = "<group>";
@@ -128,6 +164,55 @@
 			path = HappyGradingUITests;
 			sourceTree = "<group>";
 		};
+		43053D6B1E824E2100B00609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43053D7A1E824F8300B00609 /* AlertForMissedRequiredField.swift */,
+				43053D7B1E824F8300B00609 /* DataAccess.swift */,
+				43053D371E824C8B00B00609 /* AppDelegate.swift */,
+				43053D681E824E1300B00609 /* HappyGrading.xcdatamodeld */,
+				43053D461E824C8B00B00609 /* Info.plist */,
+				43053D821E82575300B00609 /* GoogleService-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43053D6C1E824F2700B00609 /* Course Management */ = {
+			isa = PBXGroup;
+			children = (
+				43053D781E824F6900B00609 /* AddNewCourseViewController.swift */,
+				43053D6D1E824F4600B00609 /* CourseManagementTableViewCell.swift */,
+				43053D6E1E824F4600B00609 /* CourseManagementTableViewController.swift */,
+				43053D6F1E824F4600B00609 /* EditCourseInfoViewController.swift */,
+			);
+			name = "Course Management";
+			sourceTree = "<group>";
+		};
+		43053D731E824F4B00B00609 /* ExamManagement */ = {
+			isa = PBXGroup;
+			children = (
+				43053D741E824F6000B00609 /* ExamTableViewCell.swift */,
+				43053D751E824F6000B00609 /* ExamTableViewController.swift */,
+			);
+			name = ExamManagement;
+			sourceTree = "<group>";
+		};
+		43053D7E1E824F8D00B00609 /* Main Process */ = {
+			isa = PBXGroup;
+			children = (
+				43053D391E824C8B00B00609 /* ViewController.swift */,
+			);
+			name = "Main Process";
+			sourceTree = "<group>";
+		};
+		8D3EFF21267BEA7946C1F2D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B6BEC4FBFA9A91C08B529D2 /* Pods_HappyGrading.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43053D5F1E824C8C00B00609 /* Build configuration list for PBXNativeTarget "HappyGrading" */;
 			buildPhases = (
+				5F03A24BFA714864E1A009BA /* [CP] Check Pods Manifest.lock */,
 				43053D301E824C8B00B00609 /* Sources */,
 				43053D311E824C8B00B00609 /* Frameworks */,
 				43053D321E824C8B00B00609 /* Resources */,
+				A47E7F6D9DC84B53EC3C8D7A /* [CP] Embed Pods Frameworks */,
+				5ACB9EA9653307C205E5E741 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +286,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = K8L7MET4L6;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					43053D4A1E824C8C00B00609 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -238,7 +331,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43053D451E824C8B00B00609 /* LaunchScreen.storyboard in Resources */,
+				43053D811E8250AA00B00609 /* LaunchScreen.xib in Resources */,
+				43053D831E82575300B00609 /* GoogleService-Info.plist in Resources */,
 				43053D421E824C8B00B00609 /* Assets.xcassets in Resources */,
 				43053D3D1E824C8B00B00609 /* Main.storyboard in Resources */,
 			);
@@ -260,14 +354,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5ACB9EA9653307C205E5E741 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/HappyGrading/Pods/Target Support Files/Pods-HappyGrading/Pods-HappyGrading-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F03A24BFA714864E1A009BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A47E7F6D9DC84B53EC3C8D7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/HappyGrading/Pods/Target Support Files/Pods-HappyGrading/Pods-HappyGrading-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43053D301E824C8B00B00609 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				43053D3A1E824C8B00B00609 /* ViewController.swift in Sources */,
-				43053D401E824C8B00B00609 /* HappyGrading.xcdatamodeld in Sources */,
+				43053D711E824F4600B00609 /* CourseManagementTableViewController.swift in Sources */,
+				43053D7D1E824F8300B00609 /* DataAccess.swift in Sources */,
+				43053D791E824F6900B00609 /* AddNewCourseViewController.swift in Sources */,
+				43053D771E824F6000B00609 /* ExamTableViewController.swift in Sources */,
+				43053D6A1E824E1300B00609 /* HappyGrading.xcdatamodeld in Sources */,
+				43053D761E824F6000B00609 /* ExamTableViewCell.swift in Sources */,
+				43053D721E824F4600B00609 /* EditCourseInfoViewController.swift in Sources */,
+				43053D7C1E824F8300B00609 /* AlertForMissedRequiredField.swift in Sources */,
 				43053D381E824C8B00B00609 /* AppDelegate.swift in Sources */,
+				43053D701E824F4600B00609 /* CourseManagementTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,12 +461,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		43053D431E824C8B00B00609 /* LaunchScreen.storyboard */ = {
+		43053D7F1E8250AA00B00609 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				43053D441E824C8B00B00609 /* Base */,
+				43053D801E8250AA00B00609 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -417,8 +567,10 @@
 		};
 		43053D601E824C8C00B00609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361FC851B489DDEEF00FD5B1 /* Pods-HappyGrading.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HappyGrading/HappyGrading.entitlements;
 				DEVELOPMENT_TEAM = K8L7MET4L6;
 				INFOPLIST_FILE = HappyGrading/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -430,8 +582,10 @@
 		};
 		43053D611E824C8C00B00609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EDCE8C57D6896A5DA5F74AE /* Pods-HappyGrading.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HappyGrading/HappyGrading.entitlements;
 				DEVELOPMENT_TEAM = K8L7MET4L6;
 				INFOPLIST_FILE = HappyGrading/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -518,6 +672,7 @@
 				43053D611E824C8C00B00609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43053D621E824C8C00B00609 /* Build configuration list for PBXNativeTarget "HappyGradingTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +681,7 @@
 				43053D641E824C8C00B00609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43053D651E824C8C00B00609 /* Build configuration list for PBXNativeTarget "HappyGradingUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,16 +690,17 @@
 				43053D671E824C8C00B00609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		43053D3E1E824C8B00B00609 /* HappyGrading.xcdatamodeld */ = {
+		43053D681E824E1300B00609 /* HappyGrading.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				43053D3F1E824C8B00B00609 /* HappyGrading.xcdatamodel */,
+				43053D691E824E1300B00609 /* model.xcdatamodel */,
 			);
-			currentVersion = 43053D3F1E824C8B00B00609 /* HappyGrading.xcdatamodel */;
+			currentVersion = 43053D691E824E1300B00609 /* model.xcdatamodel */;
 			path = HappyGrading.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

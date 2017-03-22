@@ -1,0 +1,6 @@
+framework module Pods_HappyGrading {
+  umbrella header "Pods-HappyGrading-umbrella.h"
+
+  export *
+  module * { export * }
+}

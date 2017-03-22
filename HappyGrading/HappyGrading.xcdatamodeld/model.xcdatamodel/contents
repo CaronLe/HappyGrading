@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Course" representedClassName="Course" syncable="YES" codeGenerationType="class">
+        <attribute name="basedResultImg" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="examDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="totalExams" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="totalTests" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="examConnect" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ExamUnit" inverseName="courseConnect" inverseEntity="ExamUnit" syncable="YES"/>
+    </entity>
+    <entity name="ExamUnit" representedClassName="ExamUnit" syncable="YES" codeGenerationType="class">
+        <attribute name="examId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="examImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="examScore" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="courseConnect" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Course" inverseName="examConnect" inverseEntity="Course" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Course" positionX="10971" positionY="9806" width="128" height="148"/>
+        <element name="ExamUnit" positionX="11241" positionY="9947" width="128" height="103"/>
+    </elements>
+</model>
