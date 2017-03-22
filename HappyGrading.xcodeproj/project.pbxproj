@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43053D381E824C8B00B00609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D371E824C8B00B00609 /* AppDelegate.swift */; };
+		43053D3A1E824C8B00B00609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D391E824C8B00B00609 /* ViewController.swift */; };
+		43053D3D1E824C8B00B00609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43053D3B1E824C8B00B00609 /* Main.storyboard */; };
+		43053D401E824C8B00B00609 /* HappyGrading.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43053D3E1E824C8B00B00609 /* HappyGrading.xcdatamodeld */; };
+		43053D421E824C8B00B00609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43053D411E824C8B00B00609 /* Assets.xcassets */; };
+		43053D451E824C8B00B00609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43053D431E824C8B00B00609 /* LaunchScreen.storyboard */; };
+		43053D501E824C8C00B00609 /* HappyGradingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D4F1E824C8C00B00609 /* HappyGradingTests.swift */; };
+		43053D5B1E824C8C00B00609 /* HappyGradingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D5A1E824C8C00B00609 /* HappyGradingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43053D4C1E824C8C00B00609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43053D2C1E824C8B00B00609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43053D331E824C8B00B00609;
+			remoteInfo = HappyGrading;
+		};
+		43053D571E824C8C00B00609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43053D2C1E824C8B00B00609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43053D331E824C8B00B00609;
+			remoteInfo = HappyGrading;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43053D341E824C8B00B00609 /* HappyGrading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyGrading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43053D371E824C8B00B00609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43053D391E824C8B00B00609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43053D3C1E824C8B00B00609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43053D3F1E824C8B00B00609 /* HappyGrading.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyGrading.xcdatamodel; sourceTree = "<group>"; };
+		43053D411E824C8B00B00609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43053D441E824C8B00B00609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43053D461E824C8B00B00609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43053D4B1E824C8C00B00609 /* HappyGradingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyGradingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43053D4F1E824C8C00B00609 /* HappyGradingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyGradingTests.swift; sourceTree = "<group>"; };
+		43053D511E824C8C00B00609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43053D561E824C8C00B00609 /* HappyGradingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyGradingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43053D5A1E824C8C00B00609 /* HappyGradingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyGradingUITests.swift; sourceTree = "<group>"; };
+		43053D5C1E824C8C00B00609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43053D311E824C8B00B00609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43053D481E824C8C00B00609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43053D531E824C8C00B00609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43053D2B1E824C8B00B00609 = {
+			isa = PBXGroup;
+			children = (
+				43053D361E824C8B00B00609 /* HappyGrading */,
+				43053D4E1E824C8C00B00609 /* HappyGradingTests */,
+				43053D591E824C8C00B00609 /* HappyGradingUITests */,
+				43053D351E824C8B00B00609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43053D351E824C8B00B00609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43053D341E824C8B00B00609 /* HappyGrading.app */,
+				43053D4B1E824C8C00B00609 /* HappyGradingTests.xctest */,
+				43053D561E824C8C00B00609 /* HappyGradingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43053D361E824C8B00B00609 /* HappyGrading */ = {
+			isa = PBXGroup;
+			children = (
+				43053D371E824C8B00B00609 /* AppDelegate.swift */,
+				43053D391E824C8B00B00609 /* ViewController.swift */,
+				43053D3B1E824C8B00B00609 /* Main.storyboard */,
+				43053D411E824C8B00B00609 /* Assets.xcassets */,
+				43053D431E824C8B00B00609 /* LaunchScreen.storyboard */,
+				43053D461E824C8B00B00609 /* Info.plist */,
+				43053D3E1E824C8B00B00609 /* HappyGrading.xcdatamodeld */,
+			);
+			path = HappyGrading;
+			sourceTree = "<group>";
+		};
+		43053D4E1E824C8C00B00609 /* HappyGradingTests */ = {
+			isa = PBXGroup;
+			children = (
+				43053D4F1E824C8C00B00609 /* HappyGradingTests.swift */,
+				43053D511E824C8C00B00609 /* Info.plist */,
+			);
+			path = HappyGradingTests;
+			sourceTree = "<group>";
+		};
+		43053D591E824C8C00B00609 /* HappyGradingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43053D5A1E824C8C00B00609 /* HappyGradingUITests.swift */,
+				43053D5C1E824C8C00B00609 /* Info.plist */,
+			);
+			path = HappyGradingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43053D331E824C8B00B00609 /* HappyGrading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43053D5F1E824C8C00B00609 /* Build configuration list for PBXNativeTarget "HappyGrading" */;
+			buildPhases = (
+				43053D301E824C8B00B00609 /* Sources */,
+				43053D311E824C8B00B00609 /* Frameworks */,
+				43053D321E824C8B00B00609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyGrading;
+			productName = HappyGrading;
+			productReference = 43053D341E824C8B00B00609 /* HappyGrading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43053D4A1E824C8C00B00609 /* HappyGradingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43053D621E824C8C00B00609 /* Build configuration list for PBXNativeTarget "HappyGradingTests" */;
+			buildPhases = (
+				43053D471E824C8C00B00609 /* Sources */,
+				43053D481E824C8C00B00609 /* Frameworks */,
+				43053D491E824C8C00B00609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43053D4D1E824C8C00B00609 /* PBXTargetDependency */,
+			);
+			name = HappyGradingTests;
+			productName = HappyGradingTests;
+			productReference = 43053D4B1E824C8C00B00609 /* HappyGradingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43053D551E824C8C00B00609 /* HappyGradingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43053D651E824C8C00B00609 /* Build configuration list for PBXNativeTarget "HappyGradingUITests" */;
+			buildPhases = (
+				43053D521E824C8C00B00609 /* Sources */,
+				43053D531E824C8C00B00609 /* Frameworks */,
+				43053D541E824C8C00B00609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43053D581E824C8C00B00609 /* PBXTargetDependency */,
+			);
+			name = HappyGradingUITests;
+			productName = HappyGradingUITests;
+			productReference = 43053D561E824C8C00B00609 /* HappyGradingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43053D2C1E824C8B00B00609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Swift;
+				TargetAttributes = {
+					43053D331E824C8B00B00609 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K8L7MET4L6;
+						ProvisioningStyle = Automatic;
+					};
+					43053D4A1E824C8C00B00609 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K8L7MET4L6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43053D331E824C8B00B00609;
+					};
+					43053D551E824C8C00B00609 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K8L7MET4L6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43053D331E824C8B00B00609;
+					};
+				};
+			};
+			buildConfigurationList = 43053D2F1E824C8B00B00609 /* Build configuration list for PBXProject "HappyGrading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43053D2B1E824C8B00B00609;
+			productRefGroup = 43053D351E824C8B00B00609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43053D331E824C8B00B00609 /* HappyGrading */,
+				43053D4A1E824C8C00B00609 /* HappyGradingTests */,
+				43053D551E824C8C00B00609 /* HappyGradingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43053D321E824C8B00B00609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43053D451E824C8B00B00609 /* LaunchScreen.storyboard in Resources */,
+				43053D421E824C8B00B00609 /* Assets.xcassets in Resources */,
+				43053D3D1E824C8B00B00609 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43053D491E824C8C00B00609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43053D541E824C8C00B00609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43053D301E824C8B00B00609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43053D3A1E824C8B00B00609 /* ViewController.swift in Sources */,
+				43053D401E824C8B00B00609 /* HappyGrading.xcdatamodeld in Sources */,
+				43053D381E824C8B00B00609 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43053D471E824C8C00B00609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43053D501E824C8C00B00609 /* HappyGradingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43053D521E824C8C00B00609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43053D5B1E824C8C00B00609 /* HappyGradingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43053D4D1E824C8C00B00609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43053D331E824C8B00B00609 /* HappyGrading */;
+			targetProxy = 43053D4C1E824C8C00B00609 /* PBXContainerItemProxy */;
+		};
+		43053D581E824C8C00B00609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43053D331E824C8B00B00609 /* HappyGrading */;
+			targetProxy = 43053D571E824C8C00B00609 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43053D3B1E824C8B00B00609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43053D3C1E824C8B00B00609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43053D431E824C8B00B00609 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43053D441E824C8B00B00609 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43053D5D1E824C8C00B00609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43053D5E1E824C8C00B00609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43053D601E824C8C00B00609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K8L7MET4L6;
+				INFOPLIST_FILE = HappyGrading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = enclave.bc10.iosteam.HappyGrading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		43053D611E824C8C00B00609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K8L7MET4L6;
+				INFOPLIST_FILE = HappyGrading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = enclave.bc10.iosteam.HappyGrading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		43053D631E824C8C00B00609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K8L7MET4L6;
+				INFOPLIST_FILE = HappyGradingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = enclave.bc10.iosteam.HappyGradingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyGrading.app/HappyGrading";
+			};
+			name = Debug;
+		};
+		43053D641E824C8C00B00609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K8L7MET4L6;
+				INFOPLIST_FILE = HappyGradingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = enclave.bc10.iosteam.HappyGradingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyGrading.app/HappyGrading";
+			};
+			name = Release;
+		};
+		43053D661E824C8C00B00609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K8L7MET4L6;
+				INFOPLIST_FILE = HappyGradingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = enclave.bc10.iosteam.HappyGradingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HappyGrading;
+			};
+			name = Debug;
+		};
+		43053D671E824C8C00B00609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K8L7MET4L6;
+				INFOPLIST_FILE = HappyGradingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = enclave.bc10.iosteam.HappyGradingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HappyGrading;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43053D2F1E824C8B00B00609 /* Build configuration list for PBXProject "HappyGrading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43053D5D1E824C8C00B00609 /* Debug */,
+				43053D5E1E824C8C00B00609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43053D5F1E824C8C00B00609 /* Build configuration list for PBXNativeTarget "HappyGrading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43053D601E824C8C00B00609 /* Debug */,
+				43053D611E824C8C00B00609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43053D621E824C8C00B00609 /* Build configuration list for PBXNativeTarget "HappyGradingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43053D631E824C8C00B00609 /* Debug */,
+				43053D641E824C8C00B00609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43053D651E824C8C00B00609 /* Build configuration list for PBXNativeTarget "HappyGradingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43053D661E824C8C00B00609 /* Debug */,
+				43053D671E824C8C00B00609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43053D3E1E824C8B00B00609 /* HappyGrading.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43053D3F1E824C8B00B00609 /* HappyGrading.xcdatamodel */,
+			);
+			currentVersion = 43053D3F1E824C8B00B00609 /* HappyGrading.xcdatamodel */;
+			path = HappyGrading.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43053D2C1E824C8B00B00609 /* Project object */;
+}
