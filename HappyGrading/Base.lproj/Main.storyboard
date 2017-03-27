@@ -13,7 +13,7 @@
         <!--Menu Screen View Controller-->
         <scene sceneID="D8C-7t-M9E">
             <objects>
-                <viewController id="7JE-38-mwO" customClass="MenuScreenViewController" customModule="Happy_Grading" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7JE-38-mwO" customClass="MenuScreenViewController" customModule="HappyGrading" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TqY-MN-CcI"/>
                         <viewControllerLayoutGuide type="bottom" id="FYJ-VV-fDa"/>
@@ -50,7 +50,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Download Test Template" backgroundImage="MenuButtonBackGround"/>
                                 <connections>
-                                    <segue destination="03J-J3-FqI" kind="show" id="Xfe-JR-eOu"/>
+                                    <segue destination="wW5-gm-lBH" kind="show" id="vtX-3F-jGm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6a-6m-3aL">
@@ -111,7 +111,7 @@
         <!--Template Download View Controller-->
         <scene sceneID="C3I-O8-dcF">
             <objects>
-                <viewController id="03J-J3-FqI" customClass="TemplateDownloadViewController" customModule="Happy_Grading" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="03J-J3-FqI" customClass="TemplateDownloadViewController" customModule="HappyGrading" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eB3-fs-UOw"/>
                         <viewControllerLayoutGuide type="bottom" id="XLy-ZE-KMB"/>
@@ -162,22 +162,95 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b9l-LM-zG9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="260" y="864"/>
+            <point key="canvasLocation" x="-753" y="914"/>
+        </scene>
+        <!--Authentication View Controller-->
+        <scene sceneID="Oks-82-GwQ">
+            <objects>
+                <viewController id="wW5-gm-lBH" customClass="AuthenticationViewController" customModule="HappyGrading" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zge-h4-mUQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="k4I-Ol-aU2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CCO-6p-c8u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pZb-EI-cxS">
+                                <rect key="frame" x="16" y="111" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8uo-Si-2Hw">
+                                <rect key="frame" x="16" y="175" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HfS-CV-3U1">
+                                <rect key="frame" x="127" y="253" width="120" height="30"/>
+                                <color key="backgroundColor" red="0.63932812213897705" green="0.8802228569984436" blue="0.68250471353530884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="FX0-bU-XZN"/>
+                                </constraints>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="logIn:" destination="wW5-gm-lBH" eventType="touchUpInside" id="TsH-tG-BTM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egu-eb-1dP">
+                                <rect key="frame" x="127" y="318" width="120" height="30"/>
+                                <color key="backgroundColor" red="0.63932812213897705" green="0.8802228569984436" blue="0.68250471353530884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="register:" destination="wW5-gm-lBH" eventType="touchUpInside" id="VHq-kI-ICd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pZb-EI-cxS" firstAttribute="top" secondItem="zge-h4-mUQ" secondAttribute="bottom" constant="47" id="1Ar-MK-V7l"/>
+                            <constraint firstItem="8uo-Si-2Hw" firstAttribute="top" secondItem="pZb-EI-cxS" secondAttribute="bottom" constant="34" id="7t4-sd-pg3"/>
+                            <constraint firstItem="pZb-EI-cxS" firstAttribute="leading" secondItem="CCO-6p-c8u" secondAttribute="leadingMargin" id="ESl-mS-U5g"/>
+                            <constraint firstItem="HfS-CV-3U1" firstAttribute="trailing" secondItem="egu-eb-1dP" secondAttribute="trailing" id="IgI-uu-knz"/>
+                            <constraint firstItem="8uo-Si-2Hw" firstAttribute="centerX" secondItem="HfS-CV-3U1" secondAttribute="centerX" id="KfX-gf-h9j"/>
+                            <constraint firstItem="pZb-EI-cxS" firstAttribute="leading" secondItem="8uo-Si-2Hw" secondAttribute="leading" id="XBh-Rc-1qz"/>
+                            <constraint firstItem="HfS-CV-3U1" firstAttribute="leading" secondItem="egu-eb-1dP" secondAttribute="leading" id="Ybw-Wc-MeM"/>
+                            <constraint firstItem="pZb-EI-cxS" firstAttribute="trailing" secondItem="8uo-Si-2Hw" secondAttribute="trailing" id="aWL-Vc-RGA"/>
+                            <constraint firstItem="egu-eb-1dP" firstAttribute="top" secondItem="HfS-CV-3U1" secondAttribute="bottom" constant="35" id="hgm-ia-MhS"/>
+                            <constraint firstItem="egu-eb-1dP" firstAttribute="centerY" secondItem="CCO-6p-c8u" secondAttribute="centerY" id="kf6-mm-fTJ"/>
+                            <constraint firstItem="pZb-EI-cxS" firstAttribute="trailing" secondItem="CCO-6p-c8u" secondAttribute="trailingMargin" id="qzj-vR-XZV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="8uo-Si-2Hw" id="sjF-ga-cxX"/>
+                        <outlet property="register" destination="egu-eb-1dP" id="ce9-qh-24x"/>
+                        <outlet property="userNameTextField" destination="pZb-EI-cxS" id="RVe-Wv-atf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bn0-2i-dgj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232.80000000000001" y="912.5937031484259"/>
         </scene>
         <!--Manage Your Course-->
         <scene sceneID="wpy-0S-aiR">
             <objects>
-                <tableViewController id="ijc-04-tCF" customClass="CourseManagementTableViewController" customModule="Happy_Grading" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="ijc-04-tCF" customClass="CourseManagementTableViewController" customModule="HappyGrading" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="121" sectionHeaderHeight="28" sectionFooterHeight="28" id="7wv-1K-vIS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="courseCellIndentifier" rowHeight="155" id="byA-6c-aC7" customClass="CourseManagementTableViewCell" customModule="Happy_Grading" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="courseCellIndentifier" rowHeight="155" id="byA-6c-aC7" customClass="CourseManagementTableViewCell" customModule="HappyGrading" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="155"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="byA-6c-aC7" id="IOs-Of-Joh">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="155"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="154"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CourseTableViewBackGround" translatesAutoresizingMaskIntoConstraints="NO" id="OD4-hN-bN7">
@@ -285,7 +358,7 @@
                                 <rect key="frame" x="0.0" y="183" width="375" height="19"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AYj-3u-9Ta" id="t4I-7H-qGe">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="19"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="18"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -313,7 +386,7 @@
         <!--Course's Exams-->
         <scene sceneID="Ymq-tg-XAk">
             <objects>
-                <tableViewController id="9YA-yg-SVg" customClass="ExamTableViewController" customModule="Happy_Grading" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="9YA-yg-SVg" customClass="ExamTableViewController" customModule="HappyGrading" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="96" sectionHeaderHeight="28" sectionFooterHeight="28" id="1Tv-tn-341">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -342,11 +415,11 @@
                             <color key="backgroundColor" red="0.97859150171279907" green="0.86257696151733398" blue="0.94605058431625366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </stackView>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="examCellIdentifier" rowHeight="96" id="VeY-Id-Yem" customClass="ExamTableViewCell" customModule="Happy_Grading" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="examCellIdentifier" rowHeight="96" id="VeY-Id-Yem" customClass="ExamTableViewCell" customModule="HappyGrading" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="375" height="96"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VeY-Id-Yem" id="rSX-Yb-c7z">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="95"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CourseTableViewBackGround" translatesAutoresizingMaskIntoConstraints="NO" id="0Vu-eR-Dl5">
@@ -440,7 +513,7 @@
         <!--Grading Test-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Happy_Grading" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HappyGrading" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -561,7 +634,7 @@
         <!--Add New Course Examination-->
         <scene sceneID="uCt-PJ-BEG">
             <objects>
-                <viewController id="q1x-dV-ODc" customClass="AddNewCourseViewController" customModule="Happy_Grading" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="q1x-dV-ODc" customClass="AddNewCourseViewController" customModule="HappyGrading" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cfP-4T-11K"/>
                         <viewControllerLayoutGuide type="bottom" id="bGh-AU-kD2"/>
@@ -656,7 +729,7 @@
         <!--Edit Course Information-->
         <scene sceneID="PGZ-io-N5u">
             <objects>
-                <viewController id="XJl-Wy-ojD" customClass="EditCourseInfoViewController" customModule="Happy_Grading" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XJl-Wy-ojD" customClass="EditCourseInfoViewController" customModule="HappyGrading" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i8R-jM-VUi"/>
                         <viewControllerLayoutGuide type="bottom" id="eA4-3R-Ae0"/>
@@ -757,6 +830,6 @@
         <image name="captureIcon" width="35" height="35"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jD5-k1-etG"/>
+        <segue reference="QhG-hK-eze"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -24,6 +24,7 @@
 		43053D7D1E824F8300B00609 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053D7B1E824F8300B00609 /* DataAccess.swift */; };
 		43053D811E8250AA00B00609 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43053D7F1E8250AA00B00609 /* LaunchScreen.xib */; };
 		43053D831E82575300B00609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43053D821E82575300B00609 /* GoogleService-Info.plist */; };
+		43053DCC1E88BB1500B00609 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43053DCB1E88BB1500B00609 /* AuthenticationViewController.swift */; };
 		7CF2DCB3FAE1DE45A5406003 /* Pods_HappyGrading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6BEC4FBFA9A91C08B529D2 /* Pods_HappyGrading.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		43053D801E8250AA00B00609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		43053D821E82575300B00609 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		43053D841E826AEF00B00609 /* HappyGrading.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HappyGrading.entitlements; sourceTree = "<group>"; };
+		43053DCB1E88BB1500B00609 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		6EDCE8C57D6896A5DA5F74AE /* Pods-HappyGrading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyGrading.release.xcconfig"; path = "HappyGrading/Pods/Target Support Files/Pods-HappyGrading/Pods-HappyGrading.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				43053D391E824C8B00B00609 /* ViewController.swift */,
+				43053DCB1E88BB1500B00609 /* AuthenticationViewController.swift */,
 			);
 			name = "Main Process";
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				43053D711E824F4600B00609 /* CourseManagementTableViewController.swift in Sources */,
 				43053D7D1E824F8300B00609 /* DataAccess.swift in Sources */,
 				43053D791E824F6900B00609 /* AddNewCourseViewController.swift in Sources */,
+				43053DCC1E88BB1500B00609 /* AuthenticationViewController.swift in Sources */,
 				43053D771E824F6000B00609 /* ExamTableViewController.swift in Sources */,
 				43053D6A1E824E1300B00609 /* HappyGrading.xcdatamodeld in Sources */,
 				43053D761E824F6000B00609 /* ExamTableViewCell.swift in Sources */,
